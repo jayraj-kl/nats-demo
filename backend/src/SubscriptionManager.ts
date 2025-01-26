@@ -67,7 +67,7 @@ export class SubscriptionManager {
                             // console.log("Parsing message as JSON");
                             parsedData = JSON.parse(message);
                         } catch {
-                            console.log("Message is not JSON, using as is");
+                            // console.log("Message is not JSON, using as is");
                             parsedData = message;
                         }
             
